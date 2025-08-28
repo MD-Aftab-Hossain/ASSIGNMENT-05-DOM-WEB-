@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html style="background-color: #F5FFF6;" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- daisy  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/10d83dd930.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="bg-white p-[5px]">
+            <nav class="max-w-[1300px] mx-auto flex justify-between">
+                <div class=" flex justify-center items-center gap-2">
+                    <img class="md:size-12 size-6" src="imgs/logo.png" alt="">
+                    <h1 class="text-green-900 font-black md:text-[16px] text-[8px]">Emergency <br> Service</h1>
+                </div>
+                <div class="flex justify-center items-center gap-4">
+                    <div class="gap-1 pl-4 pr-4 pt-1 pb-1 rounded-2xl flex justify-center items-center bg-green-100">
+                        <h1 id="totallove" class="md:text-[16px] text-[8px] font-black">0</h1>
+                        <img class="size-5" src="imgs/heart.png" alt="">
+                    </div>
+                    <div
+                        class="gap-1 pl-4 pr-4 pt-1 pb-1 rounded-[1000px] flex justify-center items-center bg-green-100">
+                        <h1 id="coin" class="md:text-[16px] text-[8px] font-black">100</h1>
+                        <img class="size-5" src="imgs/coin.png" alt="">
+                    </div>
+                    <button
+                        class="bg-[#00A63E] font-medium md:text-[13px] text-[7px] md:pl-[20px] md:pr-[20px] md:pt-[7px] md:pb-[7px] pl-[10px] pr-[10px] pt-[7px] pb-[7px] text-white rounded-2xl"><span
+                            id="copyid">0</span>
+                        Copy</button>
+                </div>
+            </nav>
+        </div>
+        <div
+            class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col justify-center items-center p-[18px]">
+            <img class="size-20" src="imgs/logo-dark.png" alt="">
+            <h1 class="text-white font-[600] text-[20px] my-[8px]">জরুরি সেবা ডিরেক্টরি</h1>
+            <p class="text-white font-medium text-[12px]">Government Emergency Services at Your Fingertip – A Project by
+                Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </header>
+    <main>
+        <section class="p-[15px] max-w-[1300px] h-[850px] mx-auto grid md:grid-cols-4 grid-cols-1 md:grid-rows-3 gap-4">
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-red-100 p-3 rounded-xl" src="imgs/emergency.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">জাতীয় জরুরি সেবা</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">National Emergency</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">999</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    সার্বজনীন</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-blue-100 p-3 rounded-xl" src="imgs/police.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">পুলিশ</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Police</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">999</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    পুলিশ</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-red-100 p-3 rounded-xl" src="imgs/fire-service.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">ফায়ার সার্ভিস</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Fire Service</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">999</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    ফায়ার</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+
+
+
+            <div id="history"
+                class="bg-white order-last md:order-none p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]  row-span-3">
+                <div class="mb-[17px] flex justify-between">
+                    <div class="flex items-center gap-1">
+                        <div class="block">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <p class="font-medium">Call History</p>
+                    </div>
+                    <button id="clearbtn"
+                        class="bg-[#00A63E] font-medium text-[13px] pl-[20px] pr-[20px] pt-[7px] pb-[7px] text-white rounded-2xl">Clear</button>
+                </div>
+                <div id="blankcont">
+                    <div id="blank">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-red-100 p-3 rounded-xl" src="imgs/ambulance.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">অ্যাম্বুলেন্স</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Ambulance</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">1994-999999</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    স্বাস্থ্য</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-green-50 p-3 rounded-xl" src="imgs/masisu.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">নারী ও শিশু সহায়তা</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Women & Child Helpline</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">109</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    সহায়তা</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-blue-100 p-3 rounded-xl" src="imgs/dudok.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">দুদক</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Anti-Corruption</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">106</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    সরকারি</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-blue-100 p-3 rounded-xl" src="imgs/biddut.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">বিদ্যুৎ বিভ্রাট</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Electricity Outage</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">16216</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    বিদ্যুৎ</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-pink-100 p-3 rounded-xl" src="imgs/brac.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">ব্র্যাক</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Brac</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">16445</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    এনজিও</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+            <div class="bg-white p-[20px] shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[10px]">
+                <div class="flex justify-between mb-[12px]">
+                    <img class="size-12 bg-amber-50 p-3 rounded-xl" src="imgs/Bangladesh-Railway.png" alt="">
+                    <i class="love fa-regular fa-heart text-xl text-[#5C5C5C]"></i>
+                </div>
+                <h1 class="bntitle text-[16px] font-bold ">বাংলাদেশ রেলওয়ে</h1>
+                <p class="entitle text-[13px] text-[#5C5C5C] ">Bangladesh Railway</p>
+                <h1 class="numb text-[26px] font-bold mt-[10px] mb-0">163</h1>
+                <p
+                    class="bg-[#F2F2F2] mb-[10px] inline-block pl-3 pr-3 pt-1 pb-1 rounded-2xl text-[#5C5C5C] text-[12px] font-[500] ">
+                    পরিবহন</p><br>
+                <div class="flex gap-2">
+                    <button
+                        class="copybtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-white text-[#5C5C5C] border-1 border-[#D4D6D5]"><i
+                            class="fa-regular fa-copy"></i> Copy</button>
+                    <button class="callbtn w-[50%] py-[4px] text-[11px] rounded-[5px] bg-[#00A63E] text-white "><i
+                            class="fa-solid fa-phone"></i> Call</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="final.js"></script>
+</body>
+
+</html>
